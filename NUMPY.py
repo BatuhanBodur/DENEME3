@@ -361,13 +361,3 @@ import turtle
 # print(np.power(x,3))#x'in küpünü alır.ikinci parametre üs değeridir.
 # print(np.exp(x))#x in doğal logaritmasını alır.
 
-
-t=turtle.Turtle()
-turtle.bgcolor("black")
-t.speed(5)
-colors=["red","yellow","blue","green","purple","orange"]
-for i in range(300):
-    t.pencolor(colors[i%6])
-    t.forward(i*2)
-    t.right(61)
-turtle.done()    
